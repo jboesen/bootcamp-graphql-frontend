@@ -5,6 +5,7 @@ import { onError } from 'apollo-link-error'
 import { ApolloLink } from 'apollo-link'
 import config from './config'
 
+
 const httpLink = new HttpLink({
   uri: config.graphqlUrl,
   credentials: 'include',
